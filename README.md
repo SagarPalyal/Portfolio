@@ -14,3 +14,5 @@ The objective of this portfolio is to showcase your projects and skills to world
 : The about me section will contain detailed description about yourself.
 4.Contact
 Here people can ask you queries.
+
+Go to requirements.txt file for dependencies.

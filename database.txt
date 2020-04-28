@@ -1,4 +1,0 @@
-email,subject,message
-a@a.com,aaa,aaaaa
-b@b.com,bb,
-c@c.com,cc,ccccc

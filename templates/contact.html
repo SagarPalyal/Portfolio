@@ -63,13 +63,13 @@
                   <div class="row">
                     <div class="col-md-7">
                       <div class="form-group">
-                        <input name="email" type="email" class="form-control" id="email" placeholder="Email">
+                        <input pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$" name="email" type="email" class="form-control" id="email" placeholder="Email" required>
                       </div>
                       <div class="form-group">
-                        <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject">
+                        <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject" required>
                       </div>
                       <div class="form-group">
-                        <textarea name="message" class="form-control" rows="5" placeholder="Enter your message"></textarea>
+                        <textarea name="message" class="form-control" rows="5" placeholder="Enter your message" minlength="15" required></textarea>
                       </div>
                       <button type="submit" class="btn btn-default btn-lg">Send</button>
                     </div>
